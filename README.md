@@ -2,6 +2,12 @@
 
 **An evidence-first GTM research workbench for finding and prioritizing potential institutional investment buyers.**
 
+### 🚀 [Launch Live Demo](https://stephenstilwell.github.io/gtm-equi-allocator-intelligence/)
+
+Explore the interactive Allocator Intelligence dashboard, including AI-assisted prospect research, evidence-based scoring, competitive intelligence, and GTM workflows.
+
+[**View Live Demo →**](https://stephenstilwell.github.io/gtm-equi-allocator-intelligence/) | [**View Source Code**](https://github.com/stephenstilwell/gtm-equi-allocator-intelligence)
+
 Allocator Intelligence helps a researcher move beyond broad prospect lists and generic fit scores. It combines account data, cited research, competitive constraints, and an explainable scoring model to help decide **which advisory firms deserve a closer look, why, and what should be verified before outreach.**
 
 The first working version is a standalone, browser-based application built with vanilla HTML, CSS, and JavaScript. It requires no API keys, backend, build step, or subscription to run.
