@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="color-scheme" content="light"/>
+<meta name="description" content="Independent research workbench for evidence-based allocator prospecting. An Equi GTM take-home concept."/>
+<title>Allocator Intelligence | GTM Research Workbench</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brand"><div class="brand-mark">A<span>.</span></div><div><strong>ALLOCATOR<br/>INTELLIGENCE</strong><small>Research workbench / v1.0</small></div></div>
+    <div class="side-caption">WORKSPACE</div>
+    <nav aria-label="Main navigation" id="nav">
+      <button data-view="overview" class="nav-btn active"><span class="nav-ico">◫</span> Overview</button>
+      <button data-view="accounts" class="nav-btn"><span class="nav-ico">▤</span> Account intelligence <span class="nav-qty">25</span></button>
+      <button data-view="experiment" class="nav-btn"><span class="nav-ico">◇</span> Experiment plan</button>
+      <button data-view="methods" class="nav-btn"><span class="nav-ico">≡</span> Methodology</button>
+      <button data-view="present" class="nav-btn"><span class="nav-ico">▷</span> Demo script</button>
+    </nav>
+    <div class="side-bottom"><span class="live-dot"></span><span>Local research prototype</span><small>Independent project. Not affiliated with Equi or approved for financial marketing.</small></div>
+  </aside>
+  <div class="content-shell">
+    <header class="topbar"><div class="breadcrumbs"><span>WORKSPACE</span><b>/</b><strong id="viewCrumb">Overview</strong></div><div class="top-right"><span class="top-meta" id="todayLabel">Data snapshot · Nov 23, 2026</span><span class="avatar">SS</span></div></header>
+    <main id="mainView" tabindex="-1" aria-live="polite"></main>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
